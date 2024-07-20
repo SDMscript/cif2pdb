@@ -6,7 +6,7 @@ from os.path import normpath
 
 import cif2pdb.convert
 
-
+#added alt nucleotide IDs
 AA_SEQ_DICT = {"ALA": "A",
                "ARG": "R",
                "ASN": "N",
@@ -32,6 +32,10 @@ AA_SEQ_DICT = {"ALA": "A",
                "SEC": "U",
                "PYL": "O",
                "UNK": "X",
+               "2MG": "G",
+               "5MC": "C",
+               "4OC": "C",
+               "MA6": "A"
                }
 
 
